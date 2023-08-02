@@ -1,0 +1,280 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	
+
+}
+body{
+	background-image:  url('images/img4.png') ;
+  background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+		position: relative;
+}
+
+#header{position: relative;
+  background-color: green;
+	width: 100%;
+
+}
+#header .menu_container{
+
+	 margin: 50px;
+   width: 100%;
+    }
+.menu_items {
+	margin: 20px;
+	margin-left: 60px;
+	position: fixed;
+	font-size: 20px;
+	font-family: cursive;
+}.menu_items ul{
+	justify-content: space-between;
+	list-style: none;
+
+}.menu_items ul a{
+		text-decoration: none;
+		color: whitesmoke;
+	float: left;
+	text-transform: capitalize;
+	width: 15vh;
+   }
+.menu_items ul a:hover
+{
+	color: greenyellow;
+  cursor: pointer;
+}
+.invite{position: relative;
+
+	padding:5vh;
+	font-size: 50px;
+}
+.bg{position: relative;
+	border-top: 1px solid #6666;
+	}
+.bg img{ 
+margin-top: 40vh; 
+margin-left: 10vh;
+width: auto;
+
+
+
+}
+ .text P{
+margin-left: 40vh;
+ 	font-size: 130px;
+	
+	
+	 font-family: 'Finger Paint', cursive;
+	
+	
+	
+ 	
+ 	
+ }.slow {
+	margin-bottom: 10vh;
+	margin-right: 10vh;
+background: linear-gradient(
+            to left ,	#FF8C00,#EE4B2B, #FFC72C);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+	 	font-family:  cursive;
+  display: inline-block;
+ max-width: 5rem;
+  overflow: hidden;
+  animation: slow 3s ease forwards;
+
+ 
+}
+.slow small{
+	font-size: 40px;
+	margin-left: 60px;
+}
+@keyframes slow {
+  from {
+    max-width:0.0rem;
+  }
+  to {
+    max-width: 25rem;
+  }
+}
+.grid-container{
+	
+
+background-size: cover;	
+background-attachment: fixed;
+
+}
+
+
+.grid-container div{
+	margin-top: 10vh;
+
+     margin-bottom: 20vh;
+	 display: grid;
+	grid-template-columns: auto auto auto auto;
+	column-gap: 2em;
+	grid-row-gap: 2em;
+	padding: 7em 100px;
+    height: 15vh;
+	width: 40vh;
+
+
+
+}
+.grid-item-1{
+	background-image: url("images/img8.jpg");
+		background-size: cover;
+
+	border-radius: 20px;
+
+
+}
+.grid-item h2{
+	margin-top: -7vh;
+	width: 20vh;
+	text-align: center;
+  font-size: 25px;
+color: chocolate brown;}
+
+.grid-item div{
+
+  box-shadow: 10px 8px 16px 0px rgba(0,0,0,5);
+	  transition: 0.1s; 
+
+}
+
+.grid-item div:hover{
+	transform: scale(1.02);}
+	.story{
+		margin-top: -20vh;
+		
+		
+
+	}
+	
+	.story h1{
+		margin: 10vh;
+		margin-top: 50vh;
+		margin-left: 16cm;
+		font-size: 70px;
+		background: linear-gradient( to right,
+            #dba514, #eeb609, #b78628,#c69320);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+		font-style: italic;
+	}.story div img{
+		display: inline-flex;
+		margin-left: 50px;
+		margin-bottom: -85vh;
+		width: 185vh;
+		height: auto;
+		}
+	.story p{
+		margin-top: -18vh;
+		margin-left: -20px;
+		padding:20vh;
+		display: inline-block;
+        font-size: 23px;
+		color: whitesmoke;
+		font-family: 'Cookie', cursive;
+
+		width: 200vh;
+
+		
+	}.rsvp{
+		margin-top: -30vh;
+		margin-bottom: 5cm;
+		font-size: 30px;
+		color: chocolate;
+	}
+	.rsvp .c1{
+		margin-top: -10px ;
+		text-align: center;}
+		.rsvp h2{
+	  text-align: center;
+	}.rsvp form{
+		margin-top: 5vh;
+    text-align: center;
+    display: block;
+
+
+	}.rsvp input{
+		font-size: 20px;
+		border-radius: 30px;
+	}
+	.rsvp label{
+		 height: 20px;
+    width: 30px;
+	}.rsvp button{
+		margin-top: 100px;
+		width: 150px;
+		height: 20px;
+		border-radius: 20px;
+		
+		color: #EE4B2B;
+
+	}
+	.rsvp button:hover{
+		background-color: green;
+	}.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media only screen and (max-width: 1600px){
+	body{
+	
+    max-width: 5vh;
+
+	}.invite{position: relative;
+
+		padding:2vh;
+		font-size: 20px;}
+		.text P{
+			width: 50VH;
+			display: inline-flex;
+			margin-top: 10vh;
+			margin-left: 30vh;
+				 font-size: 100px;
+	}
+	.bg img{
+		width: 80vh;}
+	.grid-item h2{
+		display: inline;
+		margin-top: -10vh;
+		margin-left: -6vh;
+		text-align: center;
+	  font-size: 20px;
+	color: chocolate brown;}
+	.story h1{
+	   font-size: 40px;
+	   width: 20ch;
+	   margin-left: 22ch;
+	}
+	.story div img{
+		display: inline-flex;
+		margin-left: 10px;
+        width: 200vh;
+		height: auto;
+		}
+	.story p{
+		margin-top: -23vh;
+		margin-left: -15px;
+		padding:18vh;
+		display: inline-block;
+        font-size: 11px;
+		color: whitesmoke;
+		font-family: cursive;
+		width: 210vh;
+
+	}
+	.rsvp{
+		margin-bottom: 10ch;
+		width: 200vh;
+	}
+	
+}
